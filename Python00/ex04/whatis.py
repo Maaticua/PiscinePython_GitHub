@@ -27,5 +27,6 @@ len() = length of list
 sys.exit() = exit program
 try = attempt to run code that may raise an exception (like C++)
 except = handle exception if raised (replace "catch" in C++)
+raise = raise an exception (like C++)
 ValueError = exception raised when a function receives an argument of the correct type but an inappropriate value
 '''

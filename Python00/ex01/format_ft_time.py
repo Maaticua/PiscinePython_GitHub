@@ -4,9 +4,9 @@ import datetime
 sec = time.time()
 date = datetime.datetime.fromtimestamp(sec)
 
-print(f"Seconds since January 1, 1970: {sec:,.4f} or {sec:.2e} in scientific notation")
+print(f"Seconds since January 1, 1970: {sec:,.4f} or "
+      f"{sec:.2e} in scientific notation")
 print(date.strftime("%b %d %Y"))
-
 
 # Various Notes:
 """
@@ -28,7 +28,8 @@ Format the date and time:
 
 ---
 
-NumPy = a library for working with arrays and mathematical operations in Python.
+NumPy = a library for working with arrays
+ and mathematical operations in Python.
 Pandas = a library for data manipulation and analysis in Python.
 
 ---

@@ -20,7 +20,7 @@ elif (nbr % 2 != 0):
 
 # Notes random
 '''
-import sys = module to access command line arguments 
+import sys = module to access command line arguments
 sys.argv = list arg
 sys.agrv[x] = access specific arg
 len() = length of list
@@ -28,5 +28,6 @@ sys.exit() = exit program
 try = attempt to run code that may raise an exception (like C++)
 except = handle exception if raised (replace "catch" in C++)
 raise = raise an exception (like C++)
-ValueError = exception raised when a function receives an argument of the correct type but an inappropriate value
+ValueError = exception raised when a function receives an argument
+ of the correct type but an inappropriate value
 '''

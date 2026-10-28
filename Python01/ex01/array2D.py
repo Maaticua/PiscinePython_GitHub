@@ -19,8 +19,10 @@ def slice_me(family: list, start: int, end: int) -> list:
     np_family = np.array(family) #conversion numpy array pour attribu .cshape
     print(f"My shape is: {np_family.shape}")
 
-    
+    np_family_tronc = np_family[start:end]
 
+    print(f"My new shape is: {np_family_tronc.shape}")
+    return np_family_tronc.tolist()
 
 """
 La Liste [ ] (List) : C'est un tableau dynamique totalement modifiable. Tu peux changer les valeurs, en ajouter ou en supprimer à volonté.
